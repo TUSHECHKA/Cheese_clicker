@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #b5ba2c 0%, #918301 100%);
+    margin: 0;
+    padding: 20px;
+    color: white;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.stats {
+    background: rgba(255,255,255,0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.stats p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.game-area {
+    margin: 30px 0;
+}
+
+.cookie-button {
+    font-size: 100px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.1s;
+    border-radius: 50%;
+}
+
+.cookie-button:hover {
+    transform: scale(1.1);
+}
+
+.cookie-button:active {
+    transform: scale(0.95);
+}
+
+.shop {
+    background: rgba(255,255,255,0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.upgrade-btn {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.upgrade-btn:hover {
+    background: #45a049;
+}
+
+.upgrade-btn:disabled {
+    background: #cccccc;
+    cursor: not-allowed;
+}

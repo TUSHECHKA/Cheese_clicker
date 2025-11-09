@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мини Кликер</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🧀 Сырный Кликер</h1>
+        <div class="stats">
+            <p>Сыра: <span id="cookies">0</span></p>
+            <p>Сыра в секунду: <span id="cps">0</span></p>
+        </div>
+        
+        <div class="game-area">
+            <button id="cookie-btn" class="cookie-button">🧀</button>
+        </div>
+        
+        <div class="shop">
+            <h3>Магазин улучшений:</h3>
+            <button id="upgrade-cursor" class="upgrade-btn">
+                Улучшить клик (+1)<br>
+                Цена: <span id="cursor-cost">10</span>
+            </button>
+            <button id="upgrade-grandma" class="upgrade-btn">
+                Кот (+1/сек)<br>
+                Цена: <span id="grandma-cost">100</span>
+            </button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
